@@ -25,7 +25,7 @@ class GoogleMap extends React.Component {
 
         // Load the Google Maps API
         const script = document.createElement("script");
-        const API = "AIzaSyDWxYHXA7PcOge0V73VJrvRBVcCrUoxumc";
+        const API = "AIzaSyBSi52CbDew4RASvi2woYDFbLl2Wz8KK2I";
         script.src = `https://maps.googleapis.com/maps/api/js?key=${API}&callback=resolveGoogleMapsPromise`;
         script.async = true;
         document.body.appendChild(script);
